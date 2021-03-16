@@ -1,0 +1,31 @@
+@import "uikit.css";
+@import "uikit-custom.css";
+
+.text-color {
+    color: black;
+}
+
+
+
+
+/* flex container */
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
