@@ -1,0 +1,96 @@
+/* ========================================================================
+   Component: Background
+ ========================================================================== */
+/* Color
+ ========================================================================== */
+.uk-background-muted-custom {
+    background-color: #6d9cb8;
+}
+.uk-background-secondary-custom {
+   background-color: #3e708d;
+}
+
+
+/* Size modifiers
+ ========================================================================== */
+ .uk-button-small-custom {
+   padding: 0 15px;
+   line-height: 35px;
+   font-size: 0.875rem;
+}
+
+/* ========================================================================
+   Component: Placeholder
+ ========================================================================== */
+.uk-placeholder-custom {
+   margin-bottom: 0px;
+   padding: 2px 4px;
+   background: transparent;
+   border: 2px groove #5e5e5e;
+ }
+
+ /* ========================================================================
+   Component: Margin
+ ========================================================================== */
+/*
+ * Default
+ */
+ .uk-margin-left-custom {
+   margin-left: 5px !important;
+ }
+
+
+ /* ========================================================================
+   Component: Button
+ ========================================================================== */
+/*
+ * 1. Remove margins in Chrome, Safari and Opera.
+ * 2. Remove borders for `button`.
+ * 3. Address `overflow` set to `hidden` in IE.
+ * 4. Correct `font` properties and `color` not being inherited for `button`.
+ * 5. Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 6. Remove default style for `input type="submit"`in iOS.
+ * 7. Style
+ * 8. `line-height` is used to create a height because it also centers the text vertically for `a` elements.
+ *    Better would be to use height and flexbox to center the text vertically but flexbox doesn't work in Firefox on `button` elements.
+ * 9. Align text if button has a width
+ * 10. Required for `a`.
+ */
+.uk-button-custom {
+   /* 1 */
+   margin: 0;
+   /* 2 */
+   border: none;
+   /* 3 */
+   overflow: visible;
+   /* 4 */
+   font: inherit;
+   color: inherit;
+   /* 5 */
+   text-transform: none;
+   /* 6 */
+   -webkit-appearance: none;
+   border-radius: 0;
+   /* 7 */
+   display: inline-block;
+   box-sizing: border-box;
+   padding: 0 0px;
+   vertical-align: middle;
+   font-size: 0.875rem;
+   /* 8 */
+   line-height: 38px;
+   /* 9 */
+   text-align: center;
+   /* 10 */
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: 0.1s ease-in-out;
+   transition-property: color, background-color, border-color;
+ }
+
+ /* Sections
+ ========================================================================== */
+.uk-card-body {
+   display: flow-root;
+   padding: 20px 20px;
+ }
